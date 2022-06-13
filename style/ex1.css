@@ -1,0 +1,626 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar .menue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.navbar .menue .menue-icon {
+  display: none;
+}
+
+.navbar .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.navbar .nav-btn {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  background: none;
+  border: none;
+}
+
+.navbar .nav-btn:hover {
+  background-color: #6c1a7a1c;
+  border-radius: 15px;
+  color: #6c1a7a;
+}
+
+.navbar .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+
+.navbar .login .login-btn {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  border: none;
+  background-color: #9C27B0;
+  color: white;
+}
+
+.container {
+  -webkit-transform: translate(10%, 20%);
+          transform: translate(10%, 20%);
+}
+
+.container .info {
+  max-width: 400px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .info p {
+  font-size: 17px;
+}
+
+.container .info .btn-1 {
+  background: none;
+  border: none;
+  color: #9C27B0;
+}
+
+.container .info .btn-2 {
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #8BC34A;
+  border: none;
+  color: white;
+}
+
+.container .info .btn-2:hover {
+  background-color: #9C27B0;
+}
+
+.container .info .btn-2:hover {
+  -webkit-box-shadow: 0px 0px 5px 1px #a1d9ff;
+          box-shadow: 0px 0px 5px 1px #a1d9ff;
+}
+
+.baner {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  z-index: -1;
+}
+
+.project {
+  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.project div {
+  line-height: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+}
+
+.project div:hover {
+  border: 1px solid #9C27B0;
+}
+
+.project div:hover h3 {
+  color: #9C27B0;
+}
+
+.moj {
+  overflow: hidden;
+  max-width: 100%;
+  position: absolute;
+  top: 385px;
+  z-index: -1;
+}
+
+.arm {
+  margin-left: 50px;
+  margin-top: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 120px;
+}
+
+.cat {
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cat div {
+  text-align: center;
+}
+
+.cat div h2 {
+  color: #9C27B0;
+}
+
+.cat div div {
+  margin-top: -20px;
+  color: rgba(0, 0, 0, 0.54);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.cat div div img {
+  width: 15%;
+  height: auto;
+}
+
+.disign {
+  overflow: hidden;
+  max-width: 100%;
+  position: absolute;
+  top: 1000px;
+  left: 0px;
+  z-index: -1;
+}
+
+.detail, .detail-2 {
+  margin-left: 70px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.detail .text, .detail-2 .text {
+  padding-right: 10%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.detail .text p, .detail-2 .text p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.detail .text h2, .detail-2 .text h2 {
+  font-size: 40px;
+}
+
+.detail .text img, .detail-2 .text img {
+  width: 10%;
+}
+
+.detail .text button, .detail-2 .text button {
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #8BC34A;
+  border: none;
+  color: white;
+}
+
+.detail .text button:hover, .detail-2 .text button:hover {
+  background-color: #9C27B0;
+}
+
+.detail-2 {
+  margin-top: 50px;
+}
+
+.detail-2 .text {
+  padding-left: 10%;
+  padding-right: 0%;
+  direction: rtl;
+}
+
+.baner-C {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 80px auto;
+  max-width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: "canter";
+      -ms-flex-pack: "canter";
+          justify-content: "canter";
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.baner-C h1 {
+  margin-bottom: 0px;
+}
+
+.baner-C .ln {
+  margin-top: -10px;
+  margin: auto;
+  max-width: 5%;
+}
+
+.info-2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.info-2 .lineY {
+  background-color: #27775d;
+  width: 1px;
+  opacity: 0.2;
+  -webkit-box-shadow: 0px 0px 3px 1px #407255;
+          box-shadow: 0px 0px 3px 1px #407255;
+}
+
+.info-2 .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: "center";
+      -ms-flex-pack: "center";
+          justify-content: "center";
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+  width: 20%;
+}
+
+.info-2 .rigth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: "center";
+      -ms-flex-pack: "center";
+          justify-content: "center";
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+  width: 20%;
+}
+
+.info-2 .rigth .head {
+  margin-bottom: 60px;
+}
+
+.info-2 .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: "center";
+      -ms-flex-pack: "center";
+          justify-content: "center";
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.info-2 .head img {
+  width: 15%;
+}
+
+.info-2 .head p {
+  text-align: center;
+}
+
+.info-2 .snack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.info-2 .snack div {
+  padding: 5px;
+}
+
+.info-2 img {
+  width: 50px;
+}
+
+.info-2 .ban {
+  color: #6c1a7a;
+}
+
+.info-2 .yel {
+  color: #dada02;
+}
+
+.info-2 .grn {
+  color: #00e016;
+}
+
+.customer {
+  margin: auto 2%;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.customer .test h2 {
+  width: 30%;
+}
+
+.customer .textPro {
+  text-align: center;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: "start";
+      -ms-flex-pack: "start";
+          justify-content: "start";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+
+.customer .text {
+  width: 70%;
+}
+
+.customer .logos {
+  width: 40%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .login {
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+  }
+  .menue {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: "center";
+        -ms-flex-pack: "center";
+            justify-content: "center";
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0px;
+  }
+  .menue .btn-hidden {
+    display: none;
+  }
+  .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .info p {
+    text-align: center;
+  }
+  .baner {
+    max-width: 100%;
+    opacity: 0.5;
+  }
+  .detail, .detail-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .detail .baner-D, .detail-2 .baner-D {
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .detail .text, .detail-2 .text {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: "center";
+        -ms-flex-pack: "center";
+            justify-content: "center";
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  .detail-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .detail-2 .detail-2 .baner-D {
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .detail-2 .detail-2 .baner-D img {
+    width: 80%;
+  }
+  .detail-2 .text {
+    margin-left: -10%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: "center";
+        -ms-flex-pack: "center";
+            justify-content: "center";
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .baner-C {
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .baner-C img {
+    max-width: 100%;
+    height: auto;
+  }
+  .logos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: nowrap;
+            flex-direction: nowrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+/*# sourceMappingURL=ex1.css.map */

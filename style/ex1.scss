@@ -1,0 +1,355 @@
+@import "_mixin.scss";
+@import "_varible.scss";
+
+
+
+.navbar{ 
+    display: flex;
+    justify-content: space-around;
+    font-family: $fontFamilly;
+    .menue{
+        @include flexCenter(30px);
+       
+        .menue-icon{
+            display: none;
+        }
+   }
+   
+    .logo{
+       @include flexCenter(15px);
+
+    }
+    .nav-btn{
+        
+        padding: 5px;
+        @include flexCenter(25px);
+        background: none;
+        border: none;
+    }
+    .nav-btn:hover{
+        background-color: #6c1a7a1c;
+
+        border-radius: 15px;
+        color: #6c1a7a;;
+    }
+    .login{
+        @include flexCenter(25px);
+        .login-btn{
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 20px;
+            font-family: $fontFamilly;
+            font-size: $fontSize;
+            border: none;
+            background-color:$ban;
+            color:white;
+        }
+    }
+}
+.container{
+    transform:translate(10%, 20%);
+    .info{
+        max-width: 400px;
+        font-family: $fontFamilly;
+        p{
+            font-size: 17px;
+        }
+        .btn-1{
+            background: none;
+            border: none;
+            color: $ban;
+            
+        }
+        .btn-2{
+            @include btn(20px, 20px);
+            
+        }
+        .btn-2:hover{
+            box-shadow: 0px 0px 5px 1px rgb(161, 217, 255);
+        }
+    }
+}
+.baner{
+    
+    position: absolute;
+    top:100px;
+    right: 0px;
+    z-index: -1;
+}
+.project{
+    
+    margin-top: 250px;
+    @include flexCenter(30px);
+    div{
+        line-height: 10px;
+        font-family: $fontFamilly;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 50px;
+    }
+    & div:hover{
+        
+        border: 1px solid $ban;
+        h3{
+            color: $ban;
+        }
+    }
+}
+.moj{
+    overflow: hidden;
+    max-width: 100%;
+    position: absolute;
+    top: 385px;
+    z-index: -1;
+}
+.arm{
+    margin-left: 50px;
+    margin-top: 300px;
+    @include flexCenter(120px);
+}
+.cat{
+    
+    margin: 50px auto;
+    @include flexCenter(60px);
+    font-family: $fontFamilly;
+    div{
+        text-align: center;
+        h2{
+            color: $ban;
+        }
+        div{
+            margin-top: -20px;
+            color: rgba(0, 0, 0, 0.54);
+            @include flexCenter(10px);
+            img{
+                width: 15%;
+                height: auto;
+            }
+        }
+    }
+    
+}
+.disign{
+    overflow: hidden;
+    max-width: 100%;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    z-index: -1;
+}
+.detail{
+    margin-left: 70px;
+    margin-top: 100px;
+    @include flexCenter(30px);
+    .text{
+        padding-right: 10%;
+        font-family: $fontFamilly;
+        p{
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        h2{
+            font-size: 40px;
+        }
+        img{
+            width: 10%
+        }
+        button{
+            @include btn(20px, 20px);
+        }
+    }
+}
+.detail-2{
+  @extend .detail;
+  margin-top: 50px;
+  .text{
+      padding-left: 10%;
+      padding-right: 0%;
+      
+      direction: rtl ;
+  }
+  }
+  .baner-C{
+      font-family: $fontFamilly;
+      
+      margin: 80px auto;
+        max-width: 70%;
+      @include flexCol(10px, "canter");
+      
+      h1{
+          margin-bottom: 0px;
+      }
+      .ln{
+          margin-top: -10px;
+          margin: auto;
+          max-width: 5%;
+      }
+  }
+
+  .info-2{
+      font-family: $fontFamilly;
+      font-size: 13px;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     .lineY{
+         background-color: rgb(39, 119, 93);
+         width: 1px;
+         opacity: 0.2;
+         box-shadow: 0px 0px 3px 1px  rgb(64, 114, 85)
+     }
+      .left{
+          @include flexCol(70px, "center");
+        width: 20%;
+      }
+      .rigth{
+        @include flexCol(70px, "center");
+          width: 20%;
+          .head{
+            margin-bottom: 60px;
+          }
+      }
+      .head{
+          
+        @include flexCol(5px, "center");
+
+        img{width:15%;}
+        p{
+            text-align: center;
+        }
+      }
+      .snack{
+          @include flexCenter(10px);
+          div{
+             padding: 5px;
+          }
+      }
+      img{width:50px;}
+      .ban{
+          color: #6c1a7a;
+      }
+      .yel{
+          color: rgb(218, 218, 2);
+      }
+      .grn{
+          color:#00e016
+      }
+
+  }
+  .customer{
+      margin: auto 2%;
+      margin-top: 100px;
+      @include flexCenter(10px);
+      .test{
+          h2{
+              
+              width: 30%
+          }
+      }
+      .textPro{
+          text-align: center;
+          margin-left: 30px;
+          @include flexRow(40px, "start");
+
+      }
+      .text{
+          width: 70%;
+      }
+     .logos{
+        width: 40%;
+        height: auto;
+        display: flex;
+      flex-wrap: wrap;
+     }
+  }
+@media screen and (max-width:768px ) {
+    .login{
+        align-self: start;
+    }
+    .menue{
+       @include flexCol(0px, "center");
+        .btn-hidden{
+            display: none;
+        }
+        // .menue-icon{
+        //     display: initial;
+        //     color: #00e016;
+            
+        // }
+        
+    }
+    .project{
+        flex-direction: column;
+    }
+    .container{
+        justify-content: center;
+        .info{
+            display: flex;
+           flex-direction:column;
+
+           align-items: center; 
+            p{
+                text-align: center;
+            }
+            
+        }
+
+    }
+    .baner{
+        max-width: 100%;
+        opacity: 0.5;
+    }
+    .detail{
+        flex-direction: column;
+        .baner-D{
+            
+            overflow: hidden;
+            max-width: 100%;
+        }
+       
+     
+        .text{
+            text-align: center;
+            @include flexCol(10px, "center")
+        }
+    }
+    .detail-2{
+        flex-direction: column;
+        // align-items: center;
+        .detail-2{
+            .baner-D{
+                overflow: hidden;
+                max-width: 100%;
+                img{
+                    width: 80%;
+                }
+            }
+
+        }
+        .text{
+            margin-left: -10%;
+            text-align: center;
+            @include flexCol(10px,"center");
+            order: 2;
+        }
+    }
+   .baner-C{
+       img{
+           max-width: 100%;
+           height: auto;
+       }
+       text-align: center;
+       overflow: hidden;
+        max-width: 100%;
+   }
+   .logos{
+    flex-direction: nowrap;
+    flex-wrap: nowrap;
+   }
+}
+
+
+
+

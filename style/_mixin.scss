@@ -1,0 +1,45 @@
+@mixin flexCenter($gap) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:$gap;
+}
+@mixin flexBetween($gap) {
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   gap:$gap;
+} 
+@mixin flexCol($gap, $justify) {
+    display: flex;
+    justify-content: $justify;
+    flex-direction: column;
+   align-items: center;
+   gap:$gap;
+} 
+@mixin btn($pl, $pr) {
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: $pl;
+    padding-right: $pr;
+    background-color: #8BC34A;
+    border: none;
+    color: white;
+    &:hover{
+        background-color:$ban;
+    }
+    
+}
+@mixin flex($gap, $justify, $direction, $item) {
+    display: flex;
+    justify-content: $justify;
+    flex-direction: $direction;
+   align-items: $item;
+   gap:$gap;
+} 
+@mixin flexRow($gap, $justify) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+    gap:$gap;
+} 
